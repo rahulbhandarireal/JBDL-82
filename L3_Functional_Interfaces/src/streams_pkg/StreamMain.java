@@ -51,6 +51,43 @@ public class StreamMain {
 
         return result;
     }
+  
+
+
+       
+//using anonymous classes
+        // Replace lambdas with anonymous classes
+        // Predicate<Integer> isEven = new Predicate<Integer>() {
+        //     @Override
+        //     public boolean test(Integer x) {
+        //         return x % 2 == 0;
+        //     }
+        // };
+
+        // Function<Integer, Integer> square = new Function<Integer, Integer>() {
+        //     @Override
+        //     public Integer apply(Integer x) {
+        //         return x * x;
+        //     }
+        // };
+
+        // BinaryOperator<Integer> sumWithPrint = new BinaryOperator<Integer>() {
+        //     @Override
+        //     public Integer apply(Integer x, Integer y) {
+        //         System.out.println("Inside reduce: x = " + x + ", y = " + y);
+        //         return x + y;
+        //     }
+        // };
+
+        // int result = numbers.stream()
+        //         .filter(isEven)
+        //         .map(square)
+        //         .reduce(0, sumWithPrint);
+
+        // System.out.println("Result: " + result);
+    }
+}
+
 
     public static Integer getSumOfSquares(List<Integer> numbers){
         // Imperative way of writing code
